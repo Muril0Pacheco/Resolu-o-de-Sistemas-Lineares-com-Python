@@ -23,7 +23,7 @@ df_input = pd.DataFrame(np.zeros((n, n + 1)), columns=colunas)
 # Widget de edição de tabela
 input_data = st.data_editor(df_input, use_container_width=True, hide_index=False)
 
-if st.button("🚀 Resolver Sistema"):
+if st.button("Resolver Sistema"):
     sistema = input_data.to_numpy()
     
     # Mostrar Sistema Original
