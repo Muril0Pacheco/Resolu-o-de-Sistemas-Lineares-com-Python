@@ -83,4 +83,4 @@ if st.button("🚀 Resolver Sistema"):
             res_cols[i].metric(label=f"x{i+1}", value=f"{solucao[i]:.4f}")
 
 st.sidebar.markdown("---")
-st.sidebar.write("Desenvolvido para o Trabalho de Álgebra Linear.")
+st.sidebar.write("Desenvolvido por Murilo Pacheco,Giovanni Oliveira e Vinicyus Rodrigues.")
